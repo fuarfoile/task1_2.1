@@ -1,4 +1,4 @@
-package com.boast.task2;
+package com.boast.task1;
 
 import java.util.Scanner;
 import com.boast.Matrix;
