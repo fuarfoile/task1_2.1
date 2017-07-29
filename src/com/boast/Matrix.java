@@ -1,11 +1,14 @@
+/*
+ * Main.java 22/07/2017
+ *
+ * Created by Bondarenko Oleh
+ */
+
+
 package com.boast;
 
 import java.util.Arrays;
 import java.util.Random;
-
-/**
- * Created by Bondarenko Oleh on 22.07.2017.
- */
 
 public class Matrix {
 
@@ -25,8 +28,8 @@ public class Matrix {
     }
 
     public void show() {
-        for(int i = 0; i < matrix.length; i++) {
-            System.out.println(Arrays.toString(matrix[i]));
+        for(int[] array : matrix) {
+            System.out.println(Arrays.toString(array));
         }
     }
 
