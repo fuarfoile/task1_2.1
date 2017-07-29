@@ -1,5 +1,5 @@
 /*
- * Main.java 22/07/2017
+ * Matrix.java 22/07/2017
  *
  * Created by Bondarenko Oleh
  */
