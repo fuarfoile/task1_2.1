@@ -34,6 +34,10 @@ public class Matrix {
     }
 
     public void leftShift(int shift) {
+        if (shift < 0) {
+            shift = (shift % matrix.length) + matrix.length;
+        }
+
         for(int i = 0; i < matrix.length; i++) {
             int[] helpMatrix = Arrays.copyOf(matrix[i], matrix[i].length);
             for(int j = 0; j < matrix[i].length; j++) {
